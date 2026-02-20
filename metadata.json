@@ -1,0 +1,7 @@
+{
+  "name": "Ubar - Mobile Rideshare Bar",
+  "description": "The party starts before you arrive. A sleek, neon-minimalist mobile rideshare bar booking platform with AI concierge.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
