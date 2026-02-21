@@ -9,7 +9,7 @@ const Driver: React.FC = () => {
   const [location, setLocation] = useState({ lat: 32.7767, lng: -96.7970 });
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-  
+
   // Current Session Data
   const [currentDriver, setCurrentDriver] = useState<DriverProfile | null>(null);
 
