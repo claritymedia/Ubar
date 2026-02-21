@@ -4,12 +4,11 @@ import { checkCredentials, DriverProfile } from '../data/mockDb';
 
 const Driver: React.FC = () => {
   // View State: 'loading' | 'login' | 'register' | 'dashboard'
-  const [view, setView] = useState<'loading' | 'login' | 'register' | 'dashboard'>('loading');
+  const [view, setView] = useState<'loading' | 'login' | 'registe' | 'dashboard'>('loading');
   const [isOnline, setIsOnline] = useState(false);
   const [location, setLocation] = useState({ lat: 32.7767, lng: -96.7970 });
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-
   // Current Session Data
   const [currentDriver, setCurrentDriver] = useState<DriverProfile | null>(null);
 
@@ -403,7 +402,7 @@ const Driver: React.FC = () => {
                    <span>{(Math.random() * 30 + 10).toFixed(1)} mph</span>
                  </div>
                  <div className="mt-4 pt-4 border-t border-white/5 text-gray-500">
-                   <p className="animate-pulse">> Uploading packet #{(Date.now() / 1000).toFixed(0)}...</p>
+                   <p className="animate-pulse">{'>'} Uploading packet #{(Date.now() / 1000).toFixed(0)}...</p>
                  </div>
                </>
              ) : (
