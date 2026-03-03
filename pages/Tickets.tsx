@@ -5,7 +5,7 @@ import { Check, ArrowRight, ExternalLink, Crown, LayoutDashboard } from 'lucide-
 // =========================================================================
 // 🔗 CONFIGURATION: PASTE YOUR GHL (GO HIGH LEVEL) MEMBERSHIP LINK BELOW
 // =========================================================================
-const GHL_MEMBERSHIP_LINK = "https://app.gohighlevel.com/"; 
+const GHL_MEMBERSHIP_LINK = "https://checkout.ubardallas.com"; 
 // =========================================================================
 
 const Passes: React.FC = () => {
